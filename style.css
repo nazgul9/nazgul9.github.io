@@ -1,0 +1,194 @@
+@import url("https://i.archi.ru/i/313950.jpg");
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    position: relative;
+    width: 100%;
+    color: #000;
+}
+
+body {
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-family: Roboto;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: Roboto;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.wrapper {
+    overflow: hidden;
+    width: 100%;
+    min-height: 100%;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.page__body {
+    position: relative;
+    height: 100%;
+
+}
+
+.parallax__town {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.parallax__town_1 {
+    background: url(https://24.kg/files/media/155/155656.jpg)0 0 / cover no-repeat;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.parallax__town_2 {
+    background: url(https://moscow-city-sale.ru/assets/slides/1.png) bottom left /55% no-repeat;
+    z-index: 6;
+}
+
+.parallax__town_3 {
+    background: url(https://thumb.tildacdn.com/tild3137-3636-4461-b834-376332363832/-/resize/882x/-/format/webp/_1.png) bottom right / 55% no-repeat;
+    z-index: 7;
+}
+
+.parallax__town_4 {
+    background: url(https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) 0 0 / cover no-repeat;
+    animation: anim 9s linear infinite;
+    -webkit-animation: anim 9s infinite;
+
+}
+
+@keyframes anim {
+    0% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+    }
+}
+
+.page__content {
+    position: relative;
+    z-index: 4;
+}
+
+.content {
+    min-width: 1170px;
+    margin: 0px auto;
+    text-align: center;
+    background: rgba(248, 245, 245, 0.603);
+    padding: 50px;
+}
+
+.content__title {
+    font-size: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.content__text {
+    font-size: 30px;
+    padding: 10px;
+}
